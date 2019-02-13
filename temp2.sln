@@ -5,6 +5,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{AB510356-863F-49D1-98A9-115DBF909CB4}"
 ProjectSection(SolutionItems) = preProject
 	.gitignore = .gitignore
+	appveyor.yml = appveyor.yml
 EndProjectSection
 EndProject
 Global
