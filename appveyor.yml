@@ -7,8 +7,11 @@ install:
 deploy_script:
   - cmd: >-
       nuget help
+      
       nuget pack temp2/temp2.csproj
+      
       nuget push help
+      
       nuget push temp2.1.0.0.nupkg -Source https://ci.appveyor.com/nuget/dotnet-nuget-gu10fsb5ljbi -ApiKey q9ci3lcifxswl525gguglq6y
 before_build:
   - cmd: nuget restore
